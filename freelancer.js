@@ -49,8 +49,6 @@ function updateFreelancers () {
 
   freelancersArr.forEach (freelancer => {
     const li = document.createElement("li");
-    // li.textContent = `${freelancer.name} ${freelancer.occupation} ${freelancer.startingPrice}`;
-    // freelancersList.appendChild(li);
     li.style.display = "flex";
     li.style.justifyContent = "space-between"
     li.style.margin = "3em"
@@ -80,10 +78,6 @@ function updateFreelancers () {
 
 updateFreelancers();
 
-
-
-
-
 // // create a function that adds a new freelancer to the freelancersArr array.
 
 
@@ -93,8 +87,6 @@ function addFreelancer (name, occupation, startingPrice) {
   updateFreelancers()
 
 };
-
-// updateFreelancers();
 
 
 
